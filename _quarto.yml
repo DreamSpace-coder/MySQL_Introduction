@@ -27,7 +27,7 @@ book:
      This book was built with <a href="https://quarto.org/">Quarto</a>.
   repo-url: https://github.com/jy-andy-hu/Education_MySQL_Introduction
   repo-branch: main
-  repo-actions: [issue]
+  repo-actions: issue
 
 format:
   html:
