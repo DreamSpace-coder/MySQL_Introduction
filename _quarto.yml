@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: docs
+
+toc: true
+
+book:
+  title: "Workbook for Introductory SQL"
+  subtitle: "For My Students to Learn Introduction to SQL and Database Administration"
+  author: "Jianyuan(Andy) Hu"
+  date: "2024-11-01"
+  chapters:
+    - index.qmd 
+    - MySQL_3_Retrieve_Data_from_Single_Table.qmd
+    - MySQL_4_Retrieve_Data_from_Different_Tables.qmd
+    - MySQL_5_Summary_Queries.qmd
+    - MySQL_6_Subqueries.qmd
+    - MySQL_7_Update_Data.qmd
+    - MySQL_8_Working_with_Numeric_Data.qmd
+    - MySQL_9_Working_with_Character_Values.qmd
+    - MySQL_10_Working_with_Time.qmd
+    - MySQL_11_Condition_Control.qmd
+  page-navigation: true
+  page-footer: 
+    left: Created by Jianyuan(Andy) Hu, 2024 
+    right: |
+     This book was built with <a href="https://quarto.org/">Quarto</a>.
+  repo-url: https://github.com/jy-andy-hu/Education_MySQL_Introduction
+  repo-branch: main
+
+format:
+  html:
+    theme: darkly
+    highlight-style: arrow
+    toc: TRUE
+    toc-location: left
+    fontsize: "14"
+    code-fold: false
+    df-print: paged
+    embed-resources: true
+    number-depth: 2
+    author-meta: "Jianyuan(Andy) Hu"
