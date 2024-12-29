@@ -31,8 +31,8 @@ book:
 
 format:
   html:
-    theme: darkly
-    highlight-style: arrow
+    theme: cerulean
+    highlight-style: github
     toc: TRUE
     toc-location: left
     fontsize: "14"
